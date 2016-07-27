@@ -1,0 +1,224 @@
+#wrapper{
+    width: 100%;
+
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('icomoon.eot?5z2aw8');
+    src:    url('icomoon.eot?5z2aw8#iefix') format('embedded-opentype'),
+        url('icomoon.ttf?5z2aw8') format('truetype'),
+        url('icomoon.woff?5z2aw8') format('woff'),
+        url('icomoon.svg?5z2aw8#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.pr *{
+    padding: 0%;
+    margin: 0%;
+}
+ul{
+    list-style: none;
+}
+.pr li a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    display:block;
+    font-family: 'Rakkas', cursive;
+}
+.pr ul{
+    overflow: hidden;
+}
+.pr li {
+    float:right;
+
+}
+#ul li{
+    float: none;
+}
+.pr li a:hover{
+    background-color: white;
+    color: black;
+}
+.pr li ul{
+    display:none;
+    position: absolute;
+    max-width: 10%
+}
+.pr li:hover > ul{
+    display: block;
+}
+.se li a{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #231f20;
+    padding: 10px 15px;
+    display:block;
+    font-family: 'Rakkas', cursive;
+} 
+.se li a:hover{
+    background-color:#231f20;
+    color: #ffffff;
+}
+.se ul{
+    overflow: hidden;
+}
+.se ul li{
+    float: left;
+    font-size: 25px;
+}
+.se{
+    position: fixed;
+    z-index: 100%;
+    top: 5;
+    max-width: 100%;
+}
+
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul {
+
+    display: flex;
+    padding-top: 10%;
+    padding-left: 1%;
+    width: 225%;
+    animation: slide 15s infinite;
+    animation-direction: alternate;
+}
+.slider li img{
+    -webkit-animation-name: slide;
+    -webkit-animation-name: slide 15s infinite;
+    animation-direction: alternate;
+}
+
+.slider li{
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+}
+#a{
+    padding-left: 15%;
+}
+#b{
+    padding-left: 48%;
+
+}
+#bb{
+    padding-left: 85%;
+
+}
+
+h1{
+    padding-top: 1%;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Rakkas', cursive;}
+h2{
+    text-align: center;
+    font-family: 'Rakkas', cursive;
+}
+p{
+    text-decoration: none;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'Rakkas', cursive;
+}
+footer{
+    text-align: center;
+    font-family: 'Rakkas', cursive;
+}
+#cl{
+    float: right;
+    padding-right: 15%;
+}
+.futel{
+    padding-left: 5%;
+    text-decoration: none;
+}
+#es{
+    padding-left: 30%;
+    width: 15%;
+}
+#est{
+   width:25%;
+}
+hr{
+    width: 50%;
+}
+@media screen and (max-width: 600px){
+    
+    article{float: none;
+        text-align: center;
+    }
+    
+    .cl{
+        padding-left: 200px;
+    }
+    
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-magnifying-glass:before {
+    content: "\e908";
+}
+.icon-mail:before {
+    content: "\e900";
+}
+.icon-shopping-cart:before {
+    content: "\e901";
+}
+.icon-vine:before {
+    content: "\e902";
+}
+.icon-facebook:before {
+    content: "\e903";
+     
+}
+.icon-instagram:before {
+    content: "\e904";
+}
+.icon-pinterest:before {
+    content: "\e905";
+    }
+.icon-tumblr:before {
+    content: "\e906";
+}
+.icon-youtube:before {
+    content: "\e907";
+    
+}
+
+
+
+
+@-webkit-keyframes slide{ 
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    25% {margin-left: -100%;}
+    45% { margin-left: -100%;}
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+}

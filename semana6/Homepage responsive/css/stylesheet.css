@@ -1,0 +1,123 @@
+
+#wrapper
+{
+width: 100%;
+margin: auto;
+}
+img
+{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+.hola
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.hola li
+{
+	float: left;
+	margin-right: 100px;
+	margin-left:50px;
+	color: #ad2e4e;
+}
+
+nav ul li
+{
+	background-color: pink;
+}
+section
+{
+	width: 66%;
+	float: left;
+	margin-right: 1%;
+	margin-bottom: 15px;
+	font-family: 'Fjalla One', sans-serif;
+	background-color: #78e1ff;
+	font-size: 1em;
+	overflow: auto; 
+	
+}
+h1
+{
+	color: #fb343a;
+	font-size: 3em;
+}
+h2
+{
+	color: #fb343a;
+	font-size: 2em;
+}
+p
+{
+	color: #7f4e52;
+	font-size: 1em;
+}
+aside
+{
+	width: 28%;
+	float: right;
+	margin-left: 1%; 
+	padding: 8px;
+	border: 1px solid black; 
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 1em;
+
+}
+aside>ul
+{
+	list-style:none;
+}
+
+footer, hr
+{
+	clear: both;
+	margin-top: 10px;
+	color: #7f5a58;
+
+}
+.siguenos
+{
+	font-family: Helvetica;
+	font-weight: bold;
+}
+.link
+{
+	font-family: Helvetica;
+	font-weight: bold;
+}
+.nunc
+{
+	font-family: Helvetica;
+	font-weight: bold;
+}
+.butt
+{
+	color: white;
+	background: black;
+}
+
+.but
+{
+	color: white;
+	background: black;
+}
+@media screen and (max-width: 600px){
+	section{float: none;
+		text-align: center;
+		padding-left: 5%;
+		background-color: pink;
+	}
+	aside{float: none;
+		text-align: center;
+		background-color: pink;
+		
+	}
+	img
+	{
+		margin: auto;
+	}
+	
+}
