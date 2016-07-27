@@ -1,0 +1,100 @@
+#wrapper{
+	max-width: 100%;
+}
+#ima{
+	width: 1279px;
+	float: none;
+}
+
+.img{
+	width: 50%;
+	float: left;
+	padding-top: 5%;
+	padding-right: 2%;
+}
+video{
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	z-index: -10;
+	visibility: visible;
+}
+
+#arti{
+	color: #aab1b0;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 15%;
+	font-size: 25px;
+	float: none;
+	/*width: 582px;*/
+	/*padding-left: 60%;*/
+	
+
+}
+button{
+	text-decoration: none;
+	font-size: 15px;
+
+}
+.eta{
+	width: 30%;
+	float: right;
+	padding-top: 10%;
+	border-top: 5px;
+	border-bottom: 5px;
+	padding-left: 4%;
+	
+
+}
+#artido{
+	float: none;
+	color: #aab1b0;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 15%;
+	font-size: 25px;
+	float: none;
+	padding-left: 2%;
+
+}
+#h{
+	width: 40%;
+}
+#yea{
+	width: 40%;
+	padding-left: 20%;
+}
+footer{
+	padding-top: 10%;
+	padding-left: 20%;
+}
+/*@media screen and (max-width: 1260px){
+    
+    #arti{float: none;
+        text-align: center;
+        padding-top: 12%;
+        font-size: 25px;
+    }
+    #ima{
+    	width: 1279px;
+    }  
+}*/
+
+
+
+#para{
+	animation-name: header;
+	animation-duration: 10s;
+	animation-iteration-count: 1;
+    animation-direction: alternate;
+
+}
+
+@keyframes header{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
