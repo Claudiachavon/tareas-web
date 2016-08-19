@@ -1,0 +1,273 @@
+body{
+	background: white;
+	background: url(../img/fondo.png);
+}
+.buscar{
+	display:inline-block;
+	display: inline;
+    float: left;
+}
+.buscar li{
+	list-style: none;
+	text-decoration: none;
+	 display: block;
+    text-decoration: none;
+    text-align: center;
+     padding-left: 100px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     color: black;
+     font-family: 'Josefin Sans', sans-serif;
+     display: inline;
+    float: left;
+      
+}
+.buscar li a{
+	 display: block;
+    text-decoration: none;
+    text-align: center;
+     padding-left: 100px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     color: black;
+     font-family: 'Josefin Sans', sans-serif;
+}
+.buscar a{
+	text-decoration: none;
+	color: black;
+}
+#search{
+	/*padding:7px;*/
+	border:1px solid #ff92bb;
+	color:black;
+	cursor:pointer;
+}
+#submit:hover{
+	background:#efbb2c;
+	transition:all 0.40s;
+}
+#wrapper{
+	background-color: white;
+	/*background-repeat: no-repeat;*/
+	width: 1000px;
+	margin: 0 auto;
+
+}
+.logo{
+	display: block;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.na ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border: 5px solid #ae171e;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.na li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+     padding-left: 125px;
+     font-size: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     color: black;
+      
+}
+.na li {
+    display: inline;
+    float: left;
+}
+.na li a:hover {
+    color: #af181e;
+}
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    /*border: 5px solid black;*/
+}
+.slider ul {
+
+    display: flex;
+    padding-top: 50px;
+    padding-left: 1%;
+    padding-bottom: 10px;
+    width: 225%;
+    animation: slide 15s infinite;
+    animation-direction: initial;
+    /*padding-top: 3%;
+    padding-left: 50px;
+    padding-right: 10px;*/
+}
+.slider li img{
+    -webkit-animation-name: slide;
+    -webkit-animation-name: slide 15s infinite;
+    animation-direction: initial;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none; 
+}
+.slider img{
+    width: 100%;
+}
+#pri{
+    padding-left: 15%;
+}
+#se{
+    padding-left: 48%;
+
+}
+#ter{
+    padding-left: 85%;
+
+}
+
+.mm ul {
+    list-style: none;
+    
+}
+.mm li a {
+    display: block;
+     padding-left: 10px;
+     
+     
+}
+.mm li {
+    display: inline;
+    float: left;
+}
+.p{
+	 border: 9px solid #ff89bd;
+}
+.p:hover{
+	 border: 9px solid black;
+}
+.d{
+	 border: 9px solid #ffe100;
+}
+.d:hover{
+	 border: 9px solid black;
+}
+.u{
+	 border: 9px solid #ae171e;
+}
+.u:hover{
+	 border: 9px solid black;
+}
+
+.fo{
+	/*padding-top: 200px;
+	padding-left: 10px;*/
+}
+footer{
+	float: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.fotoo li{
+	float: left;
+	padding-top: 100px;
+	background-color: white;
+	list-style: none;
+	
+}
+.fresa{
+	padding-left: 150px;
+}
+.ajo{
+	padding-left: 130px;
+}
+.pina{
+	padding-left: 150px;
+}
+.tama{
+	padding-left: 150px;
+}
+
+.uno{
+	padding-left: 150px;
+}
+.dos{
+	padding-left: 130px;
+}
+.tres{
+	padding-left: 150px;
+}
+.cuatro{
+	padding-left: 150px;
+}
+.cinco{
+	padding-left: 345px;
+	background-color: white;
+}
+
+
+.fu{
+	padding-top: 500px;
+	text-align: center;
+	color: black;
+	 
+}
+#pipi{
+	padding-top: 100px;
+	font-family: 'Josefin Sans', sans-serif;
+font-size: 50px;
+text-align: center;
+}
+p{
+	padding-top: 100px;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 25px;
+text-align: center;
+}
+#sho{
+	padding-top: 30px;
+	width:900px;
+	padding-left: 50px;
+}
+#abo{
+	padding-top: 30px;
+	width:900px;
+	padding-left: 50px;
+}
+#gi li{
+	float: left;
+	padding-top: 100px;
+	background-color: white;
+	list-style: none;
+}
+@-webkit-keyframes slide{ 
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    25% {margin-left: -100%;}
+    45% { margin-left: -100%;}
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+    50% { margin-left: -200%;}
+    70% { margin-left: -200%;}
+}
+@media screen and (max-width:800px){
+	#wrapper{
+		width: 100%;
+		background: url(../img/fondo.png);
+		
+	}
+	body{
+		background: url(../img/fondo.png);
+		
+	}
+	.mm{
+		margin: 0 auto;
+	}
+	#abo{
+		width: 100%
+		}
+		
+}
+
